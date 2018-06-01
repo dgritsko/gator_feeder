@@ -1,0 +1,37 @@
+{
+    "name": "gator_feeder",
+    "version": "1.0.0",
+    "description": "A silly game. Feed the gators marshmallows before they get to you.",
+    "main": "index.js",
+    "scripts": {
+        "webpack": "webpack",
+        "dev": "webpack-dev-server --content-base dist/",
+        "test": "jest src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dgritsko/gator_feeder.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dgritsko/gator_feeder/issues"
+    },
+    "homepage": "https://github.com/dgritsko/gator_feeder#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.1",
+        "eslint": "^4.17.0",
+        "expose-loader": "^0.7.4",
+        "jest": "^22.4.2",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.1"
+    },
+    "dependencies": {
+        "phaser-ce": "^2.10.0",
+        "ramda": "^0.25.0",
+        "tinyqueue": "^1.2.3"
+    }
+}

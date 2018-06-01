@@ -1,0 +1,21 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+
+    "rules": {},
+
+    "extends": "eslint:recommended",
+
+    "globals": {
+        "game": true,
+        "Phaser": true
+    }
+}
